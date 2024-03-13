@@ -10,15 +10,13 @@
     android:background="@color/white"
     >
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        android:src="@drawable/wolf_studio"
-        android:layout_marginTop="30sp"
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_centerInParent="true"
-        android:scaleType="fitCenter"
-        />
+        app:lottie_rawRes="@raw/m_p_animation"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
 
     <LinearLayout
         android:layout_width="match_parent"
