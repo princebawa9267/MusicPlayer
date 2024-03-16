@@ -45,7 +45,8 @@
                 android:layout_height="wrap_content"
                 android:text="Prince"
                 android:textSize="17dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
         </LinearLayout>
 
 
